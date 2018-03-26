@@ -1,4 +1,12 @@
 document.getElementById("button").addEventListener("click", displayDate);
+document.getElementById("saybutton").addEventListener("click", speak);
+
+function speak(event) {
+    let sayvalue = document.getElementById("saything");
+    var msg = new SpeechSynthesisUtterance(sayvalue.innerText);
+    console.log(event);
+    window.speechSynthesis.speak(msg);
+}
 
 function displayDate(event) {
     var msg = new SpeechSynthesisUtterance(event.target.textContent);
