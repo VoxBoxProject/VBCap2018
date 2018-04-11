@@ -1,13 +1,13 @@
 <script>
 export default {
-  name: "topbar",
+  name: "SpeechBar",
   props: {
     msg: String
   }
 };
 </script>
 <template>
-    <div id="topBar">
+    <div id="SpeechBar">
         <div class="topLeft">
             <p>Favorite
                 <br>&#9733;</p>
@@ -16,7 +16,7 @@ export default {
             <p id="saything">Example Text</p>
         </div>
         <div id="saybutton" class="topRight">
-            <img src="https://i.imgur.com/UCxmzJx.png" alt="logo" /> </div>
+            <img src="../assets/SpeakButton.png" alt="logo" /> </div>
         </div>
     </div>
 </template>
