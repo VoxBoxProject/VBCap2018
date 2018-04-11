@@ -30,7 +30,7 @@ export default {
 
 <!-- Folder1/Things -->
   <div class= "myBtn_multi">
-     <img src = "https://i.imgur.com/kkqg1WH.png">
+     <img src = "https://i.imgur.com/kkqg1WH.png" alt = "Things Folder">
    </div>
 
  <!-- The Modal -->
@@ -55,7 +55,7 @@ export default {
 
 <!-- Folder2/Action -->
  <div class= "myBtn_multi">
-     <img src = "https://i.imgur.com/pBsvtcK.png">
+     <img src = "https://i.imgur.com/pBsvtcK.png" alt = "Action Folder">
    </div>
 <!-- The Modal -->
 <div class= "modal modal_multi" >
@@ -79,7 +79,7 @@ export default {
 
 <!-- Folder3/Clothes -->
  <div class= "myBtn_multi">
-     <img src = "../assets/Clothes.png">
+     <img src = "../assets/Clothes.png" alt = "Clothes Folder">
    </div>
 <!-- The Modal -->
 <div class= "modal modal_multi" >
@@ -101,33 +101,9 @@ export default {
   </div>
 </div>
 
-<!-- Folder4/Travel -->
- <div class= "myBtn_multi">
-     <img src = "https://i.imgur.com/cTMnYlV.png">
-   </div>
-<!-- The Modal -->
-<div class= "modal modal_multi" >
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close close_multi">&times;</span>
-   <div class="item say">
-     <h1 class="Words1">America</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "America">
-   </div>
-    <div class="item say">
-     <h1 class="Words1">Europe</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Europe">
-   </div>
-    <div class="item say">
-     <h1 class="Words1">Asia</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Asia">
-   </div>
-  </div>
-</div>
-
 <!-- Folder5/Places -->
  <div class= "myBtn_multi">
-     <img src = "https://i.imgur.com/dMMkTt7.png">
+     <img src = "https://i.imgur.com/dMMkTt7.png" alt = "Places Folder">
    </div>
 <!-- The Modal -->
 <div class= "modal modal_multi" >
@@ -151,7 +127,7 @@ export default {
 
 <!-- Folder6/People -->
  <div class= "myBtn_multi">
-     <img src = "https://i.imgur.com/Xy1Wvlz.png">
+     <img src = "https://i.imgur.com/Xy1Wvlz.png" alt = "People Folder">
    </div>
 <!-- The Modal -->
 <div class= "modal modal_multi" >
@@ -173,33 +149,9 @@ export default {
   </div>
 </div>
 
-<!-- Folder7/Colors -->
- <div class= "myBtn_multi">
-     <img src = "https://i.imgur.com/w8lrWUO.png">
-   </div>
-<!-- The Modal -->
-<div class= "modal modal_multi" >
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close close_multi">&times;</span>
-       <div class="item say">
-     <h1 class="Words1">Blue</h1>
-     <img src = "https://i.imgur.com/7T9eCS6.png" alt = "Blue">
-   </div>
-    <div class="item say">
-     <h1 class="Words1">Red</h1>
-     <img src = "https://i.imgur.com/erGwWDg.png" alt = "Red">
-   </div>
-    <div class="item say">
-     <h1 class="Words1">Yellow</h1>
-     <img src = "https://i.imgur.com/9pWQJSd.png" alt = "Yellow">
-   </div>
-  </div>
-</div>
-
 <!-- Folder8/Emergency -->
  <div class= "myBtn_multi">
-     <img src = "https://i.imgur.com/BU9oclh.png">
+     <img src = "https://i.imgur.com/BU9oclh.png" alt = "Emergency Folder">
    </div>
 <!-- The Modal -->
 <div class= "modal modal_multi" >
