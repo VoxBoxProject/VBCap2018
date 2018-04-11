@@ -8,7 +8,7 @@ export default {
 </script>
 <template>
     <div id="SpeechBar">
-        <div class="topLeft">
+        <div class="Favorite">
             <p>Favorite
                 <br>&#9733;</p>
         </div>
