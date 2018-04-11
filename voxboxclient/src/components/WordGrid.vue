@@ -12,25 +12,25 @@ export default {
 <div class="Vocabulary">
       <div class="item say">
         <p class="Words">Again</p>
-        <img src="https://i.imgur.com/UCxmzJx.png" alt = "Again">
+        <img src="../assets/0058-500x500.png" alt = "Again">
       </div>
       <div class="item say">
         <p class="Words">All</p>
-        <img src="https://i.imgur.com/UCxmzJx.png" alt = "All">
+        <img src="../assets/0058-500x500.png" alt = "All">
       </div>
        <div class="item say">
         <p class="Words">Goodbye</p>
-        <img src="https://i.imgur.com/UCxmzJx.png" alt = "Goodbye">
+        <img src="../assets/0058-500x500.png" alt = "Goodbye">
       </div>
       <div class="item say">
         <p class="Words">Finished</p>
-        <img src="https://i.imgur.com/UCxmzJx.png" alt = "Finished">
+        <img src="../assets/Say.png" alt = "Finished">
       </div>
 
 
 <!-- Folder1/Things -->
   <div class= "myBtn_multi">
-     <img src = "https://i.imgur.com/kkqg1WH.png" alt = "Things Folder">
+     <img src = "../assets/Things.png" alt = "Things Folder">
    </div>
 
  <!-- The Modal -->
@@ -40,22 +40,22 @@ export default {
     <span class="close close_multi"> &times; </span>
        <div class="item say">
      <h1 class="words">Toys</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Toys">
+     <img src = "../assets/0058-500x500.png" alt = "Toys">
    </div>
     <div class="item say">
      <h1 class="words">Box</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Box">
+     <img src = "../assets/0058-500x500.png" alt = "Box">
    </div>
     <div class="item say">
      <h1 class="words">Food</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Food">
+     <img src = "../assets/0058-500x500.png" alt = "Food">
    </div>
   </div>
 </div> 
 
 <!-- Folder2/Action -->
  <div class= "myBtn_multi">
-     <img src = "https://i.imgur.com/pBsvtcK.png" alt = "Action Folder">
+     <img src = "../assets/0058-500x500.png" alt = "Action Folder">
    </div>
 <!-- The Modal -->
 <div class= "modal modal_multi" >
@@ -64,15 +64,15 @@ export default {
     <span class="close close_multi">&times;</span>
        <div class="item say">
      <h1 class="words">Say</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Say">
+     <img src = "../assets/Say.png" alt = "Say">
    </div>
     <div class="item say">
      <h1 class="words">Sing</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Sing">
+     <img src = "../assets/Sing.png" alt = "Sing">
    </div>
     <div class="item say">
      <h1 class="words">Stop</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Stop">
+     <img src = "../assets/Stop.png" alt = "Stop">
    </div>
   </div>
 </div>
@@ -88,22 +88,22 @@ export default {
     <span class="close close_multi">&times;</span>
        <div class="item say">
      <h1 class="words">Shirt</h1>
-     <img src = "https://i.imgur.com/ID5ieEG.png" alt = "Shirt">
+     <img src = "../assets/0058-500x500.png" alt = "Shirt">
    </div>
     <div class="item say">
      <h1 class="words">Pants</h1>
-     <img src = "https://i.imgur.com/9pWQJSd.png" alt = "Pants">
+     <img src = "../assets/0058-500x500.png" alt = "Pants">
    </div>
     <div class="item say">
      <h1 class="words">Jacket</h1>
-     <img src = "https://i.imgur.com/5Y6UkLd.png" alt = "Jacket">
+     <img src = "../assets/0058-500x500.png" alt = "Jacket">
    </div>
   </div>
 </div>
 
 <!-- Folder5/Places -->
  <div class= "myBtn_multi">
-     <img src = "https://i.imgur.com/dMMkTt7.png" alt = "Places Folder">
+     <img src = "../assets/Places.png" alt = "Places Folder">
    </div>
 <!-- The Modal -->
 <div class= "modal modal_multi" >
@@ -112,22 +112,22 @@ export default {
     <span class="close close_multi"> &times;</span>
        <div class="item say">
      <h1 class="words">Home</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Home">
+     <img src = "../assets/0058-500x500.png" alt = "Home">
    </div>
     <div class="item say">
      <h1 class="words">School</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "School">
+     <img src = "../assets/0058-500x500.png" alt = "School">
    </div>
     <div class="item say">
      <h1 class="words">Hospital</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Hospital">
+     <img src = "../assets/0058-500x500.png" alt = "Hospital">
    </div>
   </div>
 </div> 
 
 <!-- Folder6/People -->
  <div class= "myBtn_multi">
-     <img src = "https://i.imgur.com/Xy1Wvlz.png" alt = "People Folder">
+     <img src = "../assets/People.png" alt = "People Folder">
    </div>
 <!-- The Modal -->
 <div class= "modal modal_multi" >
@@ -136,22 +136,22 @@ export default {
     <span class="close close_multi">&times;</span>
        <div class="item say">
      <h1 class="words">Mom</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Mom">
+     <img src = "../assets/0058-500x500.png" alt = "Mom">
    </div>
     <div class="item say">
      <h1 class="words">Dad</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Dad">
+     <img src = "../assets/0058-500x500.png" alt = "Dad">
    </div>
     <div class="item say">
      <h1 class="words">Teacher</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Teacher">
+     <img src = "../assets/0058-500x500.png" alt = "Teacher">
    </div>
   </div>
 </div>
 
 <!-- Folder8/Emergency -->
  <div class= "myBtn_multi">
-     <img src = "https://i.imgur.com/BU9oclh.png" alt = "Emergency Folder">
+     <img src = "../assets/0058-500x500.png" alt = "Emergency Folder">
    </div>
 <!-- The Modal -->
 <div class= "modal modal_multi" >
@@ -160,57 +160,55 @@ export default {
     <span class="close close_multi">&times;</span>
          <div class="item say">
      <h1 class="words">Help</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Help">
+     <img src = "../assets/0058-500x500.png" alt = "Help">
    </div>
     <div class="item say">
      <h1 class="words">Call 911</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Call 911">
+     <img src = "../assets/0058-500x500.png" alt = "Call 911">
    </div>
     <div class="item say">
      <h1 class="words">Stop</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Stop">
+     <img src = "../assets/Stop.png" alt = "Stop">
    </div>
   </div>
 </div>
 
 <div class="item say">
     <h1 class="words">Who</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Who">
+     <img src = "../assets/0058-500x500.png" alt = "Who">
    </div>
    <div class="item say">
      <h1 class="words">What</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "What">
+     <img src = "../assets/0058-500x500.png" alt = "What">
    </div>
    <div class="item say">
      <h1 class="words">Why</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Why">
+     <img src = "../assets/0058-500x500.png" alt = "Why">
    </div>
    <div class="item say">
      <h1 class="words">When</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.pngp" alt = "When">
+     <img src = "../assets/0058-500x500.png" alt = "When">
    </div>
    <div class="item say">
      <h1 class="words">How</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "How">
+     <img src = "../assets/0058-500x500.png" alt = "How">
    </div>
    <div class="item say">
      <h1 class="words">Where</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Where">
+     <img src = "../assets/0058-500x500.png" alt = "Where">
    </div>
    <div class="item say say">
      <h1 class="words">Want</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Want">
+     <img src = "../assets/0058-500x500.png" alt = "Want">
    </div>
    <div class="item say">
      <h1 class="words">Time</h1>
-     <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Time">
+     <img src = "../assets/0058-500x500.png" alt = "Time">
   </div>
     <div class="item say">
      <h1 class="words">Love</h1>
-     <img src = "https://i.imgur.com/nxI4WbJ.png" alt = "Love">
+     <img src = "../assets/0058-500x500.png" alt = "Love">
    </div>
-
-
 
     </div>
 </template>
