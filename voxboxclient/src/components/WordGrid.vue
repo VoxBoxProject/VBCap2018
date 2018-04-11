@@ -10,19 +10,19 @@ export default {
     <div id="WordGrid">
 
 <div class="Vocabulary">
-      <div class="item" class="say">
+      <div class="item say">
         <p class="Words">Again</p>
         <img src="https://i.imgur.com/UCxmzJx.png" alt = "Again">
       </div>
-      <div class="item" class="say">
+      <div class="item say">
         <p class="Words">All</p>
         <img src="https://i.imgur.com/UCxmzJx.png" alt = "All">
       </div>
-       <div class="item" class="say">
+       <div class="item say">
         <p class="Words">Goodbye</p>
         <img src="https://i.imgur.com/UCxmzJx.png" alt = "Goodbye">
       </div>
-      <div class="item" class="say">
+      <div class="item say">
         <p class="Words">Finished</p>
         <img src="https://i.imgur.com/UCxmzJx.png" alt = "Finished">
       </div>
