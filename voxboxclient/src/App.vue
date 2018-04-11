@@ -23,7 +23,6 @@
    <CommonWords></CommonWords>
    <WordGrid></WordGrid>        
  </div>
- 
  <!-- </WordLibrary> -->
 
  </div>  <!-- app div -->
