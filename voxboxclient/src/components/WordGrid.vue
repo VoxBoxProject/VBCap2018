@@ -39,15 +39,15 @@ export default {
   <div class="modal-content">
     <span class="close close_multi"> &times; </span>
        <div class="item say">
-     <h1 class="Words1">Toys</h1>
+     <h1 class="words">Toys</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Toys">
    </div>
     <div class="item say">
-     <h1 class="Words1">Box</h1>
+     <h1 class="words">Box</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Box">
    </div>
     <div class="item say">
-     <h1 class="Words1">Food</h1>
+     <h1 class="words">Food</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Food">
    </div>
   </div>
@@ -63,15 +63,15 @@ export default {
   <div class="modal-content">
     <span class="close close_multi">&times;</span>
        <div class="item say">
-     <h1 class="Words1">Say</h1>
+     <h1 class="words">Say</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Say">
    </div>
     <div class="item say">
-     <h1 class="Words1">Sing</h1>
+     <h1 class="words">Sing</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Sing">
    </div>
     <div class="item say">
-     <h1 class="Words1">Stop</h1>
+     <h1 class="words">Stop</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Stop">
    </div>
   </div>
@@ -87,15 +87,15 @@ export default {
   <div class="modal-content">
     <span class="close close_multi">&times;</span>
        <div class="item say">
-     <h1 class="Words1">Shirt</h1>
+     <h1 class="words">Shirt</h1>
      <img src = "https://i.imgur.com/ID5ieEG.png" alt = "Shirt">
    </div>
     <div class="item say">
-     <h1 class="Words1">Pants</h1>
+     <h1 class="words">Pants</h1>
      <img src = "https://i.imgur.com/9pWQJSd.png" alt = "Pants">
    </div>
     <div class="item say">
-     <h1 class="Words1">Jacket</h1>
+     <h1 class="words">Jacket</h1>
      <img src = "https://i.imgur.com/5Y6UkLd.png" alt = "Jacket">
    </div>
   </div>
@@ -111,15 +111,15 @@ export default {
   <div class="modal-content">
     <span class="close close_multi"> &times;</span>
        <div class="item say">
-     <h1 class="Words1">Home</h1>
+     <h1 class="words">Home</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Home">
    </div>
     <div class="item say">
-     <h1 class="Words1">School</h1>
+     <h1 class="words">School</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "School">
    </div>
     <div class="item say">
-     <h1 class="Words1">Hospital</h1>
+     <h1 class="words">Hospital</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Hospital">
    </div>
   </div>
@@ -135,15 +135,15 @@ export default {
   <div class="modal-content">
     <span class="close close_multi">&times;</span>
        <div class="item say">
-     <h1 class="Words1">Mom</h1>
+     <h1 class="words">Mom</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Mom">
    </div>
     <div class="item say">
-     <h1 class="Words1">Dad</h1>
+     <h1 class="words">Dad</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Dad">
    </div>
     <div class="item say">
-     <h1 class="Words1">Teacher</h1>
+     <h1 class="words">Teacher</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Teacher">
    </div>
   </div>
@@ -159,54 +159,54 @@ export default {
   <div class="modal-content">
     <span class="close close_multi">&times;</span>
          <div class="item say">
-     <h1 class="Words1">Help</h1>
+     <h1 class="words">Help</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Help">
    </div>
     <div class="item say">
-     <h1 class="Words1">Call 911</h1>
+     <h1 class="words">Call 911</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Call 911">
    </div>
     <div class="item say">
-     <h1 class="Words1">Stop</h1>
+     <h1 class="words">Stop</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Stop">
    </div>
   </div>
 </div>
 
 <div class="item say">
-    <h1 class="Words1">Who</h1>
+    <h1 class="words">Who</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Who">
    </div>
    <div class="item say">
-     <h1 class="Words1">What</h1>
+     <h1 class="words">What</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "What">
    </div>
    <div class="item say">
-     <h1 class="Words1">Why</h1>
+     <h1 class="words">Why</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Why">
    </div>
    <div class="item say">
-     <h1 class="Words1">When</h1>
+     <h1 class="words">When</h1>
      <img src = "https://i.imgur.com/4jwKpOp.pngp" alt = "When">
    </div>
    <div class="item say">
-     <h1 class="Words1">How</h1>
+     <h1 class="words">How</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "How">
    </div>
    <div class="item say">
-     <h1 class="Words1">Where</h1>
+     <h1 class="words">Where</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Where">
    </div>
    <div class="item say say">
-     <h1 class="Words1">Want</h1>
+     <h1 class="words">Want</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Want">
    </div>
    <div class="item say">
-     <h1 class="Words1">Time</h1>
+     <h1 class="words">Time</h1>
      <img src = "https://i.imgur.com/4jwKpOp.png" alt = "Time">
   </div>
     <div class="item say">
-     <h1 class="Words1">Love</h1>
+     <h1 class="words">Love</h1>
      <img src = "https://i.imgur.com/nxI4WbJ.png" alt = "Love">
    </div>
 
