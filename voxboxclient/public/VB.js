@@ -1,19 +1,11 @@
-document.getElementById("button").addEventListener("click", displayDate);
 document.getElementById("saybutton").addEventListener("click", speak);
 
 function speak(event) {
     let sayvalue = document.getElementById("saything");
     var msg = new SpeechSynthesisUtterance(sayvalue.innerText);
-    console.log(event);
     window.speechSynthesis.speak(msg);
 }
 
-function displayDate(event) {
-    var msg = new SpeechSynthesisUtterance(event.target.textContent);
-    console.log(event);
-window.speechSynthesis.speak(msg);
-
-}
 
 
 // Get the modal
@@ -30,7 +22,7 @@ window.speechSynthesis.speak(msg);
         // When the user clicks the button, open the modal
         function setDataIndex() {
 
-            for (i = 0; i < modal_btn_multi.length; i++)
+            for (let i = 0; i < modal_btn_multi.length; i++)
             {
                 modal_btn_multi[i].setAttribute('data-index', i);
                 modalparent[i].setAttribute('data-index', i);
@@ -40,7 +32,7 @@ window.speechSynthesis.speak(msg);
 
 
 
-        for (i = 0; i < modal_btn_multi.length; i++)
+        for (let i = 0; i < modal_btn_multi.length; i++)
         {
             modal_btn_multi[i].onclick = function() {
                 var ElementIndex = this.getAttribute('data-index');
