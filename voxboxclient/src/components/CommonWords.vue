@@ -8,7 +8,7 @@ export default {
 </script>
 <template>
     <div id="CommonWords">
-        <div class="keywords">
+        <div class="CommonWords">
             <div class="Item">
                 <h1 class="Words1">Yes</h1>
                 <img src="../assets/Yes.png" alt = "Yes">
