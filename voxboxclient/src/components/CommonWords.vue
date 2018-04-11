@@ -11,7 +11,7 @@ export default {
         <div class="keywords">
             <div class="key say">
                 <h1 class="Words1">Yes</h1>
-                <img src=""../assets/Yes.png"" alt = "Yes">
+                <img src="../assets/Yes.png" alt = "Yes">
             </div>
             <div class="key say">
                 <h1 class="Words1">No</h1>
