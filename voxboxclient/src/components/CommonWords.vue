@@ -9,29 +9,29 @@ export default {
 <template>
     <div id="CommonWords">
         <div class="keywords">
-            <div class="key say">
+            <div class="Item">
                 <h1 class="Words1">Yes</h1>
-                <img src="https://i.imgur.com/e8u8t8v.png" alt = "Yes">
+                <img src="../assets/Yes.png" alt = "Yes">
             </div>
-            <div class="key say">
+            <div class="Item">
                 <h1 class="Words1">No</h1>
-                <img src="https://i.imgur.com/AoNCI7r.png" alt = "No">
+                <img src="../assets/No.png" alt = "No">
             </div>
-            <div class="key say">
+            <div class="Item">
                 <h1 class="Words1">I</h1>
-                <img src="https://i.imgur.com/Yh7PKdb.png" alt = "I">
+                <img src="../assets/I.png" alt = "I">
             </div>
-            <div class="key say">
+            <div class="Item">
                 <h1 class="Words1">He</h1>
-                <img src="https://i.imgur.com/4bu7gmK.png" alt = "He">
+                <img src="../assets/He.png" alt = "He">
             </div>
-            <div class="key say">
+            <div class="Item">
                 <h1 class="Words1">She</h1>
-                <img src="https://i.imgur.com/klwq1tQ.png" alt = "She">
+                <img src="../assets/She.png" alt = "She">
             </div>
-            <div class="key say">
+            <div class="Item">
                 <h1 class="Words1">It</h1>
-                <img src="https://i.imgur.com/4jwKpOp.png" alt = "It">
+                <img src="../assets/0058-500x500.png" alt = "It">
             </div>
         </div>
     </div>
