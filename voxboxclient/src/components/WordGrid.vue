@@ -79,7 +79,7 @@ export default {
 
 <!-- Folder3/Clothes -->
  <div class= "myBtn_multi">
-     <img src = "https://i.imgur.com/oeQe0Xk.png">
+     <img src = "../assets/Clothes.png">
    </div>
 <!-- The Modal -->
 <div class= "modal modal_multi" >
