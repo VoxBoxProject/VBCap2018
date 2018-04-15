@@ -7,11 +7,9 @@ export default {
 };
 </script>
 <template>
-    <div id="WordGrid">
+<div id="WordGrid">
 
-<div class="Vocabulary" id="button">
-  <!-- Vocab is for the CSS
-      button is for JS, opens up modals-->
+<div class="Vocabulary">
       <div class="item say">
         <h1 class="words">Again</h1>
         <img src="../assets/0058-500x500.png" alt = "Again">
