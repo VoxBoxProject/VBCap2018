@@ -19,10 +19,8 @@
        <!-- <router-view/>-->
  <SpeechBar></SpeechBar>
  <!-- <WordLibrary> -->
-  <div class = "WordLibrary" id="button">
-    <!--
-      button is used to open up the modals
-     -->
+  <div class = "WordLibrary" id="saybutton">
+    <!-- button is for the JS -->
    <CommonWords></CommonWords>
    <WordGrid></WordGrid>        
  </div>

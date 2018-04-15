@@ -49,9 +49,9 @@ window.onclick = function(event) {
   }
 
   // OLD CODE
-  /*
+  
             if (event.target === modal) {
                 modal.style.display = "none";
             }
-            */
+            
 };
