@@ -18,7 +18,7 @@ export default {
                 <p id="saything">Example Text</p>
             </div>
             <div id="saybutton" class="Speak">
-                <img src="../assets/SpeakButton.png" alt = "Speak Button" /> </div>
+                <img src="../assets/SpeakButton.png" alt = "Speak Button">
             </div>
         </div>
 
