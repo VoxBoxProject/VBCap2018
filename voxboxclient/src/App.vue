@@ -19,7 +19,7 @@
        <!-- <router-view/>-->
  <SpeechBar></SpeechBar>
  <!-- <WordLibrary> -->
-  <div class = "bottomChunk" id="button">
+  <div class = "WordLibrary" id="button">
    <CommonWords></CommonWords>
    <WordGrid></WordGrid>        
  </div>
