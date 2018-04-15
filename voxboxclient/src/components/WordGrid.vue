@@ -11,25 +11,26 @@ export default {
 
 <div class="Vocabulary">
       <div class="item say">
-        <p class="words">Again</p>
+        <h1 class="words">Again</h1>
         <img src="../assets/0058-500x500.png" alt = "Again">
       </div>
       <div class="item say">
-        <p class="words">All</p>
+        <h1 class="words">All</h1>
         <img src="../assets/0058-500x500.png" alt = "All">
       </div>
        <div class="item say">
-        <p class="words">Goodbye</p>
+        <h1 class="words">Goodbye</h1>
         <img src="../assets/0058-500x500.png" alt = "Goodbye">
       </div>
       <div class="item say">
-        <p class="words">Finished</p>
+        <h1 class="words">Finished</h1>
         <img src="../assets/Say.png" alt = "Finished">
       </div>
 
 
 <!-- Folder1/Things -->
   <div class= "myBtn_multi">
+    <h1 class="words">Things Folder</h1>    
      <img src = "../assets/Things.png" alt = "Things Folder">
    </div>
 
@@ -55,6 +56,7 @@ export default {
 
 <!-- Folder2/Action -->
  <div class= "myBtn_multi">
+   <h1 class="words">Action Folder</h1>    
      <img src = "../assets/0058-500x500.png" alt = "Action Folder">
    </div>
 <!-- The Modal -->
@@ -66,7 +68,7 @@ export default {
      <h1 class="words">Say</h1>
      <img src = "../assets/Say.png" alt = "Say">
    </div>
-    <div class="item say">
+  <div class="item say">
      <h1 class="words">Sing</h1>
      <img src = "../assets/Sing.png" alt = "Sing">
    </div>
@@ -79,6 +81,7 @@ export default {
 
 <!-- Folder3/Clothes -->
  <div class= "myBtn_multi">
+   <h1 class="words">Clothes Folder</h1>    
      <img src = "../assets/Clothes.png" alt = "Clothes Folder">
    </div>
 <!-- The Modal -->
@@ -103,6 +106,7 @@ export default {
 
 <!-- Folder5/Places -->
  <div class= "myBtn_multi">
+   <h1 class="words">Places Folder</h1>
      <img src = "../assets/Places.png" alt = "Places Folder">
    </div>
 <!-- The Modal -->
@@ -127,6 +131,7 @@ export default {
 
 <!-- Folder6/People -->
  <div class= "myBtn_multi">
+   <h1 class="words">People Folder</h1>
      <img src = "../assets/People.png" alt = "People Folder">
    </div>
 <!-- The Modal -->
@@ -151,6 +156,7 @@ export default {
 
 <!-- Folder8/Emergency -->
  <div class= "myBtn_multi">
+   <h1 class="words">Emergency Folder</h1>
      <img src = "../assets/0058-500x500.png" alt = "Emergency Folder">
    </div>
 <!-- The Modal -->
