@@ -85,7 +85,7 @@ body {
 /*removed key b/c the element styling was the same as item within Vocabulary*/
 
 .Vocabulary {
-  width: 81%;
+  width: 100%;
   height: 100%;
   display: inline-block;
 /*   max-height: 50%; */

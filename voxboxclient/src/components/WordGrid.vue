@@ -11,19 +11,19 @@ export default {
 
 <div class="Vocabulary">
       <div class="item say">
-        <p class="Words">Again</p>
+        <p class="words">Again</p>
         <img src="../assets/0058-500x500.png" alt = "Again">
       </div>
       <div class="item say">
-        <p class="Words">All</p>
+        <p class="words">All</p>
         <img src="../assets/0058-500x500.png" alt = "All">
       </div>
        <div class="item say">
-        <p class="Words">Goodbye</p>
+        <p class="words">Goodbye</p>
         <img src="../assets/0058-500x500.png" alt = "Goodbye">
       </div>
       <div class="item say">
-        <p class="Words">Finished</p>
+        <p class="words">Finished</p>
         <img src="../assets/Say.png" alt = "Finished">
       </div>
 
