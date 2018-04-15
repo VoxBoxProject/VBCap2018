@@ -77,11 +77,7 @@ body {
 /*Word Library elements*/
 
 .CommonWords {
-<<<<<<< HEAD
   width: 170px;
-=======
-  width: 150px;
->>>>>>> 450b25c6de736fae7813f95913e87d7fb9e9f16a
   overflow: auto;
   height: 100%;
   text-align: center;
