@@ -77,7 +77,7 @@ body {
 /*Word Library elements*/
 
 .CommonWords {
-  width: 150px;
+  width: 170px;
   overflow: auto;
   height: 100%;
   text-align: center;
@@ -95,7 +95,7 @@ body {
   text-align: center;
 }
 
-.Words{
+.words{
   text-align: center;
   font-size: 1.2rem;
   font-family: "Roboto Condensed"
@@ -104,10 +104,7 @@ body {
 
 .item {
   display: inline-block;
-  margin-left: 14px;
-  margin-right: 6px;
-  margin-bottom: 0px;
-  margin-top: 12px;
+  margin: 6px;
   width: 136px;
   height: 136px;
   background: white;
@@ -132,10 +129,7 @@ body {
 /*Folders that'll open modals*/
 .myBtn_multi {
   display: inline-block;
-  margin-left: 14px;
-  margin-right: 6px;
-  margin-bottom: 0px;
-  margin-top: 12px;
+  margin: 6px;
   width: 136px;
   height: 136px;
   background: white;
