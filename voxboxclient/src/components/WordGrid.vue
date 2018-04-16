@@ -10,7 +10,7 @@ export default {
 <div id="WordGrid">
 
 <div class="Vocabulary">
-      <div class="item say">
+      <div class="item say" v-on:click="$store.state.mainSentence += 'Again '">
         <h1 class="words">Again</h1>
         <img src="../assets/0058-500x500.png" alt = "Again">
       </div>
