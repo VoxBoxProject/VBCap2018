@@ -3,6 +3,7 @@
   import CommonWords from "./components/CommonWords.vue"
   import WordGrid from "./components/WordGrid.vue"
 
+  const sourceOfTruth = {}
 
   export default {
   name: 'app',
