@@ -3,7 +3,7 @@ body {
   width: 800px;
   justify-content: center;
   align-items: center;
-  background-color: #33ccff;
+  background-color: #4CB5D2;
 /*   max-height: 100%; */
   overflow: hidden;
   margin: 0px;
@@ -81,6 +81,7 @@ body {
   overflow: auto;
   height: 100%;
   text-align: center;
+  background-color: #FF982F;
 }
 /*removed key b/c the element styling was the same as item within Vocabulary*/
 
