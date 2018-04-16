@@ -9,6 +9,12 @@ export default {
 <template>
 <div id="WordGrid">
 
+<!-- vocabulary of words is like a data array of name, word, image
+ A Vue template could read the array and build the Vocaulary on the fly.
+ It would make adding, removing, and managing words slight easier instead of
+ copy and pasting html.
+-->
+
 <div class="Vocabulary">
       <div class="item say" v-on:click="$store.state.mainSentence += 'Again '">
         <h1 class="words">Again</h1>
