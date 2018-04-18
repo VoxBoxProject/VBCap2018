@@ -34,10 +34,10 @@ export default {
       </div>
 
 
-<!-- Folder1/Things -->
+<!-- Folder1/People -->
   <div class= "myBtn_multi">
-    <h1 class="words">Things Folder</h1>    
-     <img src = "../assets/Things.png" alt = "Things Folder">
+    <h1 class="words">People Folder</h1>    
+     <img src = "../assets/Things.png" alt = "People Folder">
    </div>
 
  <!-- The Modal -->
@@ -46,24 +46,28 @@ export default {
   <div class="modal-content">
     <span class="close close_multi"> &times; </span>
        <div class="item say">
-     <h1 class="words">Toys</h1>
-     <img src = "../assets/0058-500x500.png" alt = "Toys">
+     <h1 class="words">Mom</h1>
+     <img src = "../assets/Mom.png" alt = "Mom">
    </div>
     <div class="item say">
-     <h1 class="words">Box</h1>
-     <img src = "../assets/0058-500x500.png" alt = "Box">
+     <h1 class="words">Dad</h1>
+     <img src = "../assets/Dad.png" alt = "Dad">
    </div>
     <div class="item say">
-     <h1 class="words">Food</h1>
-     <img src = "../assets/0058-500x500.png" alt = "Food">
+     <h1 class="words">Friend</h1>
+     <img src = "../assets/Brother : Sister.png" alt = "Friend">
+   </div>
+     <div class="item say">
+     <h1 class="words">Teacher</h1>
+     <img src = "../assets/Teacher.png" alt = "Teacher">
    </div>
   </div>
 </div> 
 
-<!-- Folder2/Action -->
+<!-- Folder2/Feelings -->
  <div class= "myBtn_multi">
    <h1 class="words">Action Folder</h1>    
-     <img src = "../assets/0058-500x500.png" alt = "Action Folder">
+     <img src = "../assets/0058-500x500.png" alt = "Feelings Folder">
    </div>
 <!-- The Modal -->
 <div class= "modal modal_multi" >
@@ -71,24 +75,20 @@ export default {
   <div class="modal-content">
     <span class="close close_multi">&times;</span>
        <div class="item say">
-     <h1 class="words">Say</h1>
-     <img src = "../assets/Say.png" alt = "Say">
+     <h1 class="words">Happy</h1>
+     <img src = "../assets/Happy.png" alt = "Happy">
    </div>
   <div class="item say">
-     <h1 class="words">Sing</h1>
-     <img src = "../assets/Sing.png" alt = "Sing">
-   </div>
-    <div class="item say">
-     <h1 class="words">Stop</h1>
-     <img src = "../assets/Stop.png" alt = "Stop">
+     <h1 class="words">Sad</h1>
+     <img src = "../assets/Sad.png" alt = "Sad">
    </div>
   </div>
 </div>
 
-<!-- Folder3/Clothes -->
+<!-- Folder3/Actions -->
  <div class= "myBtn_multi">
-   <h1 class="words">Clothes Folder</h1>    
-     <img src = "../assets/Clothes.png" alt = "Clothes Folder">
+   <h1 class="words">Actions Folder</h1>    
+     <img src = "../assets/Go.png" alt = "Actions Folder">
    </div>
 <!-- The Modal -->
 <div class= "modal modal_multi" >
@@ -96,16 +96,60 @@ export default {
   <div class="modal-content">
     <span class="close close_multi">&times;</span>
        <div class="item say">
-     <h1 class="words">Shirt</h1>
-     <img src = "../assets/0058-500x500.png" alt = "Shirt">
+     <h1 class="words">Come</h1>
+     <img src = "../assets/Come.png" alt = "Come">
    </div>
     <div class="item say">
-     <h1 class="words">Pants</h1>
-     <img src = "../assets/0058-500x500.png" alt = "Pants">
+     <h1 class="words">Look</h1>
+     <img src = "../assets/Look.png" alt = "Look">
    </div>
     <div class="item say">
-     <h1 class="words">Jacket</h1>
-     <img src = "../assets/0058-500x500.png" alt = "Jacket">
+     <h1 class="words">Read</h1>
+     <img src = "../assets/Read.png" alt = "Read">
+   </div>
+     <div class="item say">
+     <h1 class="words">Drink</h1>
+     <img src = "../assets/Drink.png" alt = "Drink">
+   </div>
+     <div class="item say">
+     <h1 class="words">Eat</h1>
+     <img src = "../assets/Eat.png" alt = "Eat">
+   </div>
+     <div class="item say">
+     <h1 class="words">Go</h1>
+     <img src = "../assets/Go.png" alt = "Go">
+   </div>
+   <div class="item say">
+     <h1 class="words">Sleep</h1>
+     <img src = "../assets/Sleep.png" alt = "Sleep">
+   </div>
+     <div class="item say">
+     <h1 class="words">Sit</h1>
+     <img src = "../assets/Sit.png" alt = "Sit">
+   </div>
+     <div class="item say">
+     <h1 class="words">Stand Up</h1>
+     <img src = "../assets/Stand.png" alt = "Stand UP">
+   </div>
+     <div class="item say">
+     <h1 class="words">Play</h1>
+     <img src = "../assets/Play.png" alt = "Play">
+   </div>
+     <div class="item say">
+     <h1 class="words">Jump</h1>
+     <img src = "../assets/Jump.png" alt = "Jump">
+   </div>
+   <div class="item say">
+     <h1 class="words">Close</h1>
+     <img src = "../assets/Close.png" alt = "Close">
+   </div>
+   <div class="item say">
+     <h1 class="words">Run</h1>
+     <img src = "../assets/Run.png" alt = "Run">
+   </div>
+   <div class="item say">
+     <h1 class="words">Wash</h1>
+     <img src = "../assets/Wash.png" alt = "Wash">
    </div>
   </div>
 </div>
@@ -135,31 +179,6 @@ export default {
   </div>
 </div> 
 
-<!-- Folder6/People -->
- <div class= "myBtn_multi">
-   <h1 class="words">People Folder</h1>
-     <img src = "../assets/People.png" alt = "People Folder">
-   </div>
-<!-- The Modal -->
-<div class= "modal modal_multi" >
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close close_multi">&times;</span>
-       <div class="item say">
-     <h1 class="words">Mom</h1>
-     <img src = "../assets/0058-500x500.png" alt = "Mom">
-   </div>
-    <div class="item say">
-     <h1 class="words">Dad</h1>
-     <img src = "../assets/0058-500x500.png" alt = "Dad">
-   </div>
-    <div class="item say">
-     <h1 class="words">Teacher</h1>
-     <img src = "../assets/0058-500x500.png" alt = "Teacher">
-   </div>
-  </div>
-</div>
-
 <!-- Folder8/Emergency -->
  <div class= "myBtn_multi">
    <h1 class="words">Emergency Folder</h1>
@@ -185,44 +204,6 @@ export default {
   </div>
 </div>
 
-<div class="item say">
-    <h1 class="words">Who</h1>
-     <img src = "../assets/0058-500x500.png" alt = "Who">
-   </div>
-   <div class="item say">
-     <h1 class="words">What</h1>
-     <img src = "../assets/0058-500x500.png" alt = "What">
-   </div>
-   <div class="item say">
-     <h1 class="words">Why</h1>
-     <img src = "../assets/0058-500x500.png" alt = "Why">
-   </div>
-   <div class="item say">
-     <h1 class="words">When</h1>
-     <img src = "../assets/0058-500x500.png" alt = "When">
-   </div>
-   <div class="item say">
-     <h1 class="words">How</h1>
-     <img src = "../assets/0058-500x500.png" alt = "How">
-   </div>
-   <div class="item say">
-     <h1 class="words">Where</h1>
-     <img src = "../assets/0058-500x500.png" alt = "Where">
-   </div>
-   <div class="item say say">
-     <h1 class="words">Want</h1>
-     <img src = "../assets/0058-500x500.png" alt = "Want">
-   </div>
-   <div class="item say">
-     <h1 class="words">Time</h1>
-     <img src = "../assets/0058-500x500.png" alt = "Time">
-  </div>
-    <div class="item say">
-     <h1 class="words">Love</h1>
-     <img src = "../assets/0058-500x500.png" alt = "Love">
-   </div>
-
-    </div>
-    </div>
+</div>
 </template>
 
