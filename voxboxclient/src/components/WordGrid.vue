@@ -37,7 +37,7 @@ export default {
 <!-- Folder1/People -->
   <div class= "myBtn_multi">
     <h1 class="words">People Folder</h1>    
-     <img src = "../assets/Things.png" alt = "People Folder">
+     <img src = "../assets/People.png" alt = "People Folder">
    </div>
 
  <!-- The Modal -->
@@ -66,8 +66,8 @@ export default {
 
 <!-- Folder2/Feelings -->
  <div class= "myBtn_multi">
-   <h1 class="words">Action Folder</h1>    
-     <img src = "../assets/0058-500x500.png" alt = "Feelings Folder">
+   <h1 class="words">Feelings Folder</h1>    
+     <img src = "../assets/Happy.png" alt = "Feelings Folder">
    </div>
 <!-- The Modal -->
 <div class= "modal modal_multi" >
