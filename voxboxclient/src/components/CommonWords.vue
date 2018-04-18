@@ -18,20 +18,16 @@ export default {
                 <img src="../assets/No.png" alt = "No">
             </div>
             <div class="item">
-                <h1 class="words">I</h1>
-                <img src="../assets/I.png" alt = "I">
+                <h1 class="words">Me</h1>
+                <img src="../assets/I.png" alt = "Me">
             </div>
             <div class="item">
-                <h1 class="words">He</h1>
-                <img src="../assets/He.png" alt = "He">
+                <h1 class="words">You</h1>
+                <img src="../assets/He.png" alt = "You">
             </div>
             <div class="item">
-                <h1 class="words">She</h1>
-                <img src="../assets/She.png" alt = "She">
-            </div>
-            <div class="item">
-                <h1 class="words">It</h1>
-                <img src="../assets/0058-500x500.png" alt = "It">
+                <h1 class="words">Help</h1>
+                <img src="../assets/Help.png" alt = "Help">
             </div>
         </div>
     </div>
