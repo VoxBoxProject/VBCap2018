@@ -182,7 +182,7 @@ export default {
 <!-- Folder8/Emergency -->
  <div class= "myBtn_multi">
    <h1 class="words">Emergency Folder</h1>
-     <img src = "../assets/0058-500x500.png" alt = "Emergency Folder">
+     <img src = "../assets/Help.png" alt = "Emergency Folder">
    </div>
 <!-- The Modal -->
 <div class= "modal modal_multi" >
@@ -191,11 +191,7 @@ export default {
     <span class="close close_multi">&times;</span>
          <div class="item say">
      <h1 class="words">Help</h1>
-     <img src = "../assets/0058-500x500.png" alt = "Help">
-   </div>
-    <div class="item say">
-     <h1 class="words">Call 911</h1>
-     <img src = "../assets/0058-500x500.png" alt = "Call 911">
+     <img src = "../assets/Help.png" alt = "Help">
    </div>
     <div class="item say">
      <h1 class="words">Stop</h1>
