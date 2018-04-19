@@ -8,27 +8,11 @@ export default {
 </script>
 <template>
     <div id="CommonWords">
-        <div class="CommonWords">
-            <div class="item">
-                <h1 class="words">Yes</h1>
-                <img src="../assets/Yes.png" alt = "Yes">
+        <div v-for="(word) in $store.state.Common">
+            <div class = "item" v-on:click="$store.state.mainSentence +=  word.value + ' ' ">
+                <h1 class="words"> {{ word.value }} </h1>
+                <img v-bind:src="'/img/' + word.src"  v-bind:alt="word.value" />
             </div>
-            <div class="item">
-                <h1 class="words">No</h1>
-                <img src="../assets/No.png" alt = "No">
-            </div>
-            <div class="item">
-                <h1 class="words">Me</h1>
-                <img src="../assets/I.png" alt = "Me">
-            </div>
-            <div class="item">
-                <h1 class="words">You</h1>
-                <img src="../assets/He.png" alt = "You">
-            </div>
-            <div class="item">
-                <h1 class="words">Help</h1>
-                <img src="../assets/Help.png" alt = "Help">
-            </div>
-        </div>
+        </div> 
     </div>
 </template>
