@@ -16,17 +16,15 @@ export default {
 <template>
     <div id="SpeechBar"> <!-- gotta keep the id for each fo the vue -->
 
-        <div class="SpeechBar">
-            <div class="Favorite">
-                <p>Favorite
-                    <br>&#9733;</p>
-            </div>
-            <div class="sentence" id="sentence">
-                <p id="saything">{{  $store.state.mainSentence }}</p>
-            </div>
-            <div id="saybutton" class="Speak" v-on:click="speak">
-                <img src="../assets/SpeakButton.png" alt = "Speak Button">
-            </div>
+        <div class="Favorite">
+            <p>Favorite
+                <br>&#9733;</p>
+        </div>
+        <div class="sentence" id="sentence">
+            <p id="saything">{{  $store.state.mainSentence }}</p>
+        </div>
+        <div id="saybutton" class="Speak" v-on:click="speak">
+            <img src="../assets/SpeakButton.png" alt = "Speak Button">
         </div>
 
     </div>
