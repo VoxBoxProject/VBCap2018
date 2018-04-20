@@ -115,7 +115,7 @@ export default new Vuex.Store({
       }
     ],
 
-    Folder: [
+    Folders: [
       [
         //folder1 - ppl
         {
@@ -123,39 +123,46 @@ export default new Vuex.Store({
           value: "People",
           src: "People.png"
         },
-        {
-          value: "Mom",
-          src: "Mom.png"
-        },
-        {
-          value: "Dad",
-          src: "Dad.png"
-        },
-        {
-          value: "Teacher",
-          src: "Teacher.png"
-        },
-        {
-          value: "Friend",
-          src: "Brother : Sister.png"
-        }
+        [
+          //words array
+          {
+            value: "Mom",
+            src: "Mom.png"
+          },
+          {
+            value: "Dad",
+            src: "Dad.png"
+          },
+          {
+            value: "Teacher",
+            src: "Teacher.png"
+          },
+          {
+            value: "Friend",
+            src: "Brother : Sister.png"
+          }
+        ]
       ],
 
       [
         //folder 2 - feelings
         {
-          //folder image. index after 0 are images within modal
+          //folder name
           value: "Feeling",
           src: "Feeling.png"
         },
-        {
-          value: "Sad",
-          src: "Sad.png"
-        },
-        {
-          value: "Happy",
-          src: "Happy.png"
-        }
+        [
+          //folder words
+          {
+            //word
+            value: "Sad",
+            src: "Sad.png"
+          },
+          {
+            value: "Happy",
+            src: "Happy.png"
+          }
+        ]
       ],
 
       [
@@ -164,89 +171,100 @@ export default new Vuex.Store({
           value: "Actions",
           src: "Go.png"
         },
-        {
-          value: "Come",
-          src: "Come.png"
-        },
-        {
-          value: "Look",
-          src: "Look.png"
-        },
-        {
-          value: "Read",
-          src: "Read.png"
-        },
-        {
-          value: "Drink", //idk if this term is correct
-          src: "Drink.png"
-        },
-        {
-          value: "Eat",
-          src: "Eat.png"
-        },
-        {
-          value: "Go",
-          src: "Go.png"
-        },
-        {
-          value: "Sleep",
-          src: "Sleep.png"
-        },
-        {
-          value: "Sit",
-          src: "Sit.png"
-        },
-        {
-          value: "Stand Up",
-          src: "Stand.png"
-        },
-        {
-          value: "Play",
-          src: "Play.png"
-        },
-        {
-          value: "Jump",
-          src: "Jump.png"
-        },
-        {
-          value: "Close",
-          src: "Close.png"
-        },
-        {
-          value: "Run",
-          src: "Run.png"
-        },
-        {
-          value: "Wash",
-          src: "Wash.png"
-        },
-        {
-          value: "Open",
-          src: "Open.png"
-        },
-        {
-          value: "Say",
-          src: "Say.png"
-        },
-        {
-          value: "Tell",
-          src: "Say.png"
-        },
-        {
-          value: "Turn",
-          src: "Turn.png"
-        },
-        {
-          value: "Stop",
-          src: "Stop.png"
-        }
+        [
+          {
+            value: "Come",
+            src: "Come.png"
+          },
+          {
+            value: "Look",
+            src: "Look.png"
+          },
+          {
+            value: "Read",
+            src: "Read.png"
+          },
+          {
+            value: "Drink", //idk if this term is correct
+            src: "Drink.png"
+          },
+          {
+            value: "Eat",
+            src: "Eat.png"
+          },
+          {
+            value: "Go",
+            src: "Go.png"
+          },
+          {
+            value: "Sleep",
+            src: "Sleep.png"
+          },
+          {
+            value: "Sit",
+            src: "Sit.png"
+          },
+          {
+            value: "Stand Up",
+            src: "Stand.png"
+          },
+          {
+            value: "Play",
+            src: "Play.png"
+          },
+          {
+            value: "Jump",
+            src: "Jump.png"
+          },
+          {
+            value: "Close",
+            src: "Close.png"
+          },
+          {
+            value: "Run",
+            src: "Run.png"
+          },
+          {
+            value: "Wash",
+            src: "Wash.png"
+          },
+          {
+            value: "Open",
+            src: "Open.png"
+          },
+          {
+            value: "Say",
+            src: "Say.png"
+          },
+          {
+            value: "Tell",
+            src: "Say.png"
+          },
+          {
+            value: "Turn",
+            src: "Turn.png"
+          },
+          {
+            value: "Stop",
+            src: "Stop.png"
+          }
+        ]
       ]
     ]
   },
   mutations: {
-    //objects being adding in
+    //closing and dragging words within the sentence bar
   },
   actions: {
-    //say the sentences
+    //say words from sentence bar, code from previous semester
+    /*
+    document.getElementById("saybutton").addEventListener("click", speak);
+
+    function speak(event) {
+      let sayvalue = document.getElementById("saything");
+      var msg = new SpeechSynthesisUtterance(sayvalue.innerText);
+      window.speechSynthesis.speak(msg);
+    }
+    */
   }
 });
