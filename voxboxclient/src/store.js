@@ -115,125 +115,132 @@ export default new Vuex.Store({
       }
     ],
 
-    Folder1: [
-      { //folder image. index after 0 are images within modal
-        value: "People",
-        src: "People.png"
-      },
-      {
-        value: "Mom",
-        src: "Mom.png"
-      },
-      {
-        value: "Dad",
-        src: "Dad.png"
-      },
-      {
-        value: "Teacher",
-        src: "Teacher.png"
-      },
-      {
-        value: "Friend",
-        src: "Brother : Sister.png"
-      }
-    ],
+    Folder: [
+      [
+        //folder1 - ppl
+        {
+          //folder image. index after 0 are images within modal
+          value: "People",
+          src: "People.png"
+        },
+        {
+          value: "Mom",
+          src: "Mom.png"
+        },
+        {
+          value: "Dad",
+          src: "Dad.png"
+        },
+        {
+          value: "Teacher",
+          src: "Teacher.png"
+        },
+        {
+          value: "Friend",
+          src: "Brother : Sister.png"
+        }
+      ],
 
-    Folder2: [
-      { //folder image. index after 0 are images within modal
-        value: "Feeling",
-        src: "Feeling.png"
-      },
-      {
-        value: "Sad",
-        src: "Sad.png"
-      },
-      {
-        value: "Happy",
-        src: "Happy.png"
-      }
-    ],
+      [
+        //folder 2 - feelings
+        {
+          //folder image. index after 0 are images within modal
+          value: "Feeling",
+          src: "Feeling.png"
+        },
+        {
+          value: "Sad",
+          src: "Sad.png"
+        },
+        {
+          value: "Happy",
+          src: "Happy.png"
+        }
+      ],
 
-    Folder3: [
-      { //folder image. index after 0 are images within modal
-        value: "Actions",
-        src: "Go.png"
-      },
-      {
-        value: "Come",
-        src: "Come.png"
-      },
-      {
-        value: "Look",
-        src: "Look.png"
-      },
-      {
-        value: "Read",
-        src: "Read.png"
-      },
-      {
-        value: "Drink", //idk if this term is correct
-        src: "Drink.png"
-      },
-      {
-        value: "Eat",
-        src: "Eat.png"
-      },
-      {
-        value: "Go",
-        src: "Go.png"
-      },
-      {
-        value: "Sleep",
-        src: "Sleep.png"
-      },
-      {
-        value: "Sit",
-        src: "Sit.png"
-      },
-      {
-        value: "Stand Up",
-        src: "Stand.png"
-      },
-      {
-        value: "Play",
-        src: "Play.png"
-      },
-      {
-        value: "Jump",
-        src: "Jump.png"
-      },
-      {
-        value: "Close",
-        src: "Close.png"
-      },
-      {
-        value: "Run",
-        src: "Run.png"
-      },
-      {
-        value: "Wash",
-        src: "Wash.png"
-      },
-      {
-        value: "Open",
-        src: "Open.png"
-      },
-      {
-        value: "Say",
-        src: "Say.png"
-      },
-      {
-        value: "Tell",
-        src: "Say.png"
-      },
-      {
-        value: "Turn",
-        src: "Turn.png"
-      },
-      {
-        value: "Stop",
-        src: "Stop.png"
-      },
+      [
+        //folder 3 - action
+        {
+          value: "Actions",
+          src: "Go.png"
+        },
+        {
+          value: "Come",
+          src: "Come.png"
+        },
+        {
+          value: "Look",
+          src: "Look.png"
+        },
+        {
+          value: "Read",
+          src: "Read.png"
+        },
+        {
+          value: "Drink", //idk if this term is correct
+          src: "Drink.png"
+        },
+        {
+          value: "Eat",
+          src: "Eat.png"
+        },
+        {
+          value: "Go",
+          src: "Go.png"
+        },
+        {
+          value: "Sleep",
+          src: "Sleep.png"
+        },
+        {
+          value: "Sit",
+          src: "Sit.png"
+        },
+        {
+          value: "Stand Up",
+          src: "Stand.png"
+        },
+        {
+          value: "Play",
+          src: "Play.png"
+        },
+        {
+          value: "Jump",
+          src: "Jump.png"
+        },
+        {
+          value: "Close",
+          src: "Close.png"
+        },
+        {
+          value: "Run",
+          src: "Run.png"
+        },
+        {
+          value: "Wash",
+          src: "Wash.png"
+        },
+        {
+          value: "Open",
+          src: "Open.png"
+        },
+        {
+          value: "Say",
+          src: "Say.png"
+        },
+        {
+          value: "Tell",
+          src: "Say.png"
+        },
+        {
+          value: "Turn",
+          src: "Turn.png"
+        },
+        {
+          value: "Stop",
+          src: "Stop.png"
+        }
+      ]
     ]
   },
   mutations: {
