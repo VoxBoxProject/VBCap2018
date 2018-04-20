@@ -25,6 +25,7 @@ export default {
         <!--should select the element that isn't the 3rd nested array-->
         <div v-for="(words) in folder" >
             <pre> {{ words }}</pre>
+
             <div class="item say">
                 <h1 class="words"> {{ words.value }} </h1>
                 <img v-bind:src="'/img/' + words.src"  v-bind:alt="words.value" />

@@ -250,7 +250,7 @@ export default new Vuex.Store({
     ] //end of folds
   },
   mutations: {
-    //objects being adding in
+    //closing and dragging words within the sentence bar
   },
   actions: {  
   }
