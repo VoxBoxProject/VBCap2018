@@ -10,11 +10,13 @@ export default {
 <div id="WordGrid">
 
   <div class="Vocabulary">
-    <div v-for="(word) in $store.state.words">
-     <div class = "item say" v-on:click="$store.state.mainSentence +=  word.value + ' ' ">
-       <h1 class="words"> {{ word.value }} </h1>
-       <img v-bind:src="'/img/' + word.src"  v-bind:alt="word.value" />
-     </div> 
+        
+      <div v-for="(word) in $store.state.words" 
+      class = "item say" 
+      v-on:click="$store.state.mainSentence +=  word.value + ' ' ">
+          <h1 class="words"> {{ word.value }} </h1>
+          <img v-bind:src="'/img/' + word.src"  v-bind:alt="word.value" />
+      </div> 
 
         <!--Folder
         
