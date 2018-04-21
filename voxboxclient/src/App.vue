@@ -20,8 +20,7 @@
        <!-- <router-view/>-->
  <SpeechBar></SpeechBar>
  <!-- <WordLibrary> -->
-  <div class = "WordLibrary" id="saybutton">
-    <!-- button is for the JS -->
+  <div class = "WordLibrary"">
    <CommonWords></CommonWords>
    <WordGrid></WordGrid>        
  </div>
