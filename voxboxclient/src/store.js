@@ -7,15 +7,15 @@ export default new Vuex.Store({
   state: {
     mainSentence: "",
     words: [
-      //WordGrid: Words that aren't in folders
+      //Words that aren't in folders in WordGrid... some are commented out as the image isn't uplodad yet
       {
         value: "Again",
         src: "Again.png"
-      },
+      } /*
       {
         value: "Finished",
         src: "Finished.png"
-      },
+      },*/,
       {
         value: "Goodbye",
         src: "Goodbye.png"
@@ -51,11 +51,11 @@ export default new Vuex.Store({
       {
         value: "Little",
         src: "Little.png"
-      },
+      } /*
       {
         value: "More",
         src: "More.png"
-      },
+      },*/,
       {
         value: "Off",
         src: "Off.png"
@@ -75,11 +75,11 @@ export default new Vuex.Store({
       {
         value: "Up",
         src: "Up.png"
-      },
+      } /*
       {
         value: "Want",
         src: "Want.png"
-      },
+      },*/,
       {
         value: "Where", //map?
         src: "Where.png"
@@ -114,6 +114,9 @@ export default new Vuex.Store({
     ],
 
     Folders: [
+      {
+        showModal: false
+      },
       [
         //folder
         {
