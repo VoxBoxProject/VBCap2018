@@ -10,50 +10,28 @@
 </script>
 <template>
   <transition name="modal-fade">
-    <div class="modal">
-      <div class="modal-content"
-        role="dialog"
-      >
-        <header
-          class="modal-header"
-          id="modalTitle"
-        >
-          <slot name="header">
-            This is the default tile!
-
+    <div v-for="(folder) in $store.state.Folders" 
+        class="myBtn_multi">
+      <div v-for="(words) in folder"
+      class="modal-content"
+        role="dialog">
             <button
               type="button"
               class="btn-close"
               @click="close"
-              aria-label="Close modal"
-            >
+              aria-label="Close modal">
               x
             </button>
-          </slot>
-        </header>
         <section
           class="modal-body"
           id="modalDescription"
         >
-          <slot name="body">
-            I'm the default body!
-          </slot>
+          <slot v-for="(word) in words"name="item say">
+               <h1 class="words">{{ word.value }}</h1>
+               <img v-bind:src="'/img/' + word.src"  v-bind:alt="word.value" />
+           </slot>
         </section>
-        <footer class="modal-footer">
-          <slot name="footer">
-            I'm the default footer!
-
-            <button
-              type="button"
-              class="btn-green"
-              @click="close"
-              aria-label="Close modal"
-            >
-              Close me!
-            </button>
-          </slot>
-        </footer>
-      </div>
+    </div>
     </div>
   </transition>
 </template>
