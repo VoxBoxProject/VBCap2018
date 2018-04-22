@@ -49,8 +49,8 @@ export default new Vuex.Store({
         src: "Like.png"
       },
       {
-        value: "Little",
-        src: "Little.png"
+        value: "Small",
+        src: "Small.png"
       } /*
       {
         value: "More",
