@@ -51,34 +51,36 @@ export default {
        <img v-bind:src="'/img/' + word.src"  v-bind:alt="word.value" />
      
      </div> <!--unorganizeed word-->
-
-    <!--Folders has folder which has words-->
+<!--
+    <!- -Folders has folder which has words- ->
     <div v-for="(folder) in $store.state.Folders" 
         class = "myBtn_multi">
-        <!--should select the element that isn't the 3rd nested array
-        ... shouldn't be creating 2 item classes within myBtn, the 2nd one looks like its trying to access array-->
+        <!- -should select the element that isn't the 3rd nested array
+        ... shouldn't be creating 2 item classes within myBtn, the 2nd one looks like its trying to access array- ->
         <div v-for="(words) in folder">
-            <div class="item say"> <!--v-on:click="showModal = true"-->
+            <div class="item say"> <!- -v-on:click="showModal = true"- ->
                 <h1 class="words"> {{ words[0].value }} </h1>
                 <img v-bind:src="'/img/' + words[0].src"  v-bind:alt="words[0].value" />
             </div>
-        </div> <!--words-->
-    </div> <!--folders-->
+        </div> <!- -words- ->
+    </div> <!- -folders- ->
 
-        <!--Modal-->
+    
+        <!- -Modal- ->
     <div class="modal modal_multi">
-        <!-- Modal content -->
+        <!- - Modal content - ->
         <div class="modal-content">
             <span class="close close_multi"> &times; </span>
             
-            <!--this isn't appearing-->
-            <div v-for="(word) in $store.state.Folders.folder.words" class="item say"> <!--may refer by index-->
+            <!- -this isn't appearing
+            maybe refer the arrays in folders by index- ->
+            <div v-for="(word) in $store.state.Folders.folder.words" class="item say">
                 <h1 class="words">{{ word.value }}</h1>
                 <img v-bind:src="'/img/' + word.src"  v-bind:alt="word.value" />
             </div>
         </div>
-    </div> <!--modal modal_multi -->
-
+    </div> <!- -modal modal_multi - ->
+   -->
   </div> <!-- Vocab -->
 </div> <!-- WordGrid -->
 </template>
