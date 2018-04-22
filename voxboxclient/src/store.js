@@ -5,7 +5,7 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    mainSentence: "Sample Sentence",
+    mainSentence: "",
     words: [
       //WordGrid: Words that aren't in folders
       {
