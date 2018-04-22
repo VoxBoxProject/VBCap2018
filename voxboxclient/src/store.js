@@ -114,9 +114,6 @@ export default new Vuex.Store({
     ],
 
     Folders: [
-      {
-        showModal: false
-      },
       [
         //folder
         {
