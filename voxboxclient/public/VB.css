@@ -69,7 +69,7 @@ body {
 .WordLibrary {
   display: flex;
   justify-content: center;
-  height: 360px;
+  height: 330px;
   width: 100%;
   overflow: hidden;
 }
