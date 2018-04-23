@@ -146,7 +146,7 @@ export default new Vuex.Store({
         {
           //folder image. index after 0 are images within modal
           value: "Feeling",
-          src: "Feeling.png"
+          src: "Happy.png"
         },
         [
           //words for modal
