@@ -40,7 +40,7 @@ export default {
 
     <div v-for="(folder) in $store.state.Folders" 
         class = "myBtn_multi">
-        <div v-for="(words) in folder
+        <div v-for="(words) in folder"
               @click="showModal">
             <div class="item say">
                 <h1 class="words"> {{ words[0].value }} </h1>
