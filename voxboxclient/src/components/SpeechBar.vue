@@ -9,7 +9,7 @@ export default {
         let sayvalue = document.getElementById("saything");
         var msg = new SpeechSynthesisUtterance(sayvalue.innerText);
         window.speechSynthesis.speak(msg);
-}
+      }
   }
 };
 </script>
@@ -22,6 +22,7 @@ export default {
         </div>
         <div class="sentence" id="sentence">
             <p id="saything">{{  $store.state.mainSentence }}</p>
+            <button style="float:right;" v-on:click="$store.state.mainSentence=''">x</button>
         </div>
         <div id="saybutton" class="Speak" v-on:click="speak">
             <img src="../assets/SpeakButton.png" alt = "Speak Button">
@@ -29,5 +30,3 @@ export default {
 
     </div>
 </template>
-
-
