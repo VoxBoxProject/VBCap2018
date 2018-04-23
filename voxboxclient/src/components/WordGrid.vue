@@ -1,26 +1,12 @@
 <script>
-import modal from "./modal.vue"
 export default {
     name: "WordGrid",
     props : {
         msg: String
-    },
-    components: {
-      modal,
     },    
-  data () {
-    return {
-    isModalVisible: false,
-    };
-  },
-  methods: {
-    showModal() {
-      this.isModalVisible = true;
-    },
-    closeModal() {
-      this.isModalVisible = false;
+    data: {
+        isShowing:false,
     }
-  }
 };
 </script>
 <template>
@@ -38,16 +24,44 @@ export default {
      </div> <!--unorganizeed word-->
 
 
-    <div v-for="(folder) in $store.state.Folders">
-        <div class="item say" 
+    <span v-for="(folder) in $store.state.Folders">
+        <div class="myBtn_multi" 
             v-for="(words) in folder.slice(0,1)"
-            @click="showModal">
+             @click="isShowing = true">
                 <h1 class="words"> {{ words.value }} </h1>
                 <img v-bind:src="'/img/' + words.src"  v-bind:alt="words.value" />
         </div>
+    </span>
+    
+<!--
+    <div v-show="isShowing" 
+    v-for="(folder) in $store.state.Folders"
+    class="modal">
+      <div v-for="(words) in folder"
+        class="modal-content">
+            <button class="btn-close"
+              @click="isShowing = false">
+               x
+            </button>
+        <div v-for="(word) in words" class="item say">
+            <h1 class="words">{{ word.value }}</h1>
+            <img v-bind:src="'/img/' + word.src"  v-bind:alt="word.value" />
+        </div>
+      </div>
     </div>
-
-    <modal v-show="isModalVisible" @close="closeModal"/>
+-->
+    <div v-for="(folder) in $store.state.Folders">
+        <div class="modal-content">
+          <span class="close close_multi"> &times; </span>
+            <div class="item say"
+            v-for="(words) in folder[1]"
+            v-on:click="$store.state.mainSentence +=  words.value + ' ' ">
+                <h1 class="words"> {{words.value}} </h1>
+                <img v-bind:src="'/img/' + words.src"  v-bind:alt="words.value" />
+            </div>
+        </div>
+    </div>
+    
   </div>
 </div>
 </template>
