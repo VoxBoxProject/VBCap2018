@@ -20,9 +20,9 @@ export default {
             <p>Favorite
                 <br>&#9733;</p>
         </div>
-        <div class="sentence" id="sentence">
+        <div class="sentence" id="sentence">        
             <p id="saything">{{  $store.state.mainSentence }}</p>
-            <button style="float:right;" v-on:click="$store.state.mainSentence=''">x</button>
+            <span class="close close_multi" v-on:click="$store.state.mainSentence=''">&times;</span>
         </div>
         <div id="saybutton" class="Speak" v-on:click="speak">
             <img src="../assets/SpeakButton.png" alt = "Speak Button">
