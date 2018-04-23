@@ -38,14 +38,12 @@ export default {
      </div> <!--unorganizeed word-->
 
 
-    <div v-for="(folder) in $store.state.Folders" 
-        class = "myBtn_multi">
-        <div v-for="(words) in folder"
-              @click="showModal">
-            <div class="item say">
-                <h1 class="words"> {{ words[0].value }} </h1>
-                <img v-bind:src="'/img/' + words[0].src"  v-bind:alt="words[0].value" />
-            </div>
+    <div v-for="(folder) in $store.state.Folders">
+        <div class="item say" 
+            v-for="(words) in folder.slice(0,1)"
+            @click="showModal">
+                <h1 class="words"> {{ words.value }} </h1>
+                <img v-bind:src="'/img/' + words.src"  v-bind:alt="words.value" />
         </div>
     </div>
 
