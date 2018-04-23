@@ -137,7 +137,7 @@ export default new Vuex.Store({
           },
           {
             value: "Friend",
-            src: "Brother : Sister.png"
+            src: "Friend.png"
           }
         ]
       ], //end of folder 1
@@ -174,8 +174,8 @@ export default new Vuex.Store({
             src: "Come.png"
           },
           {
-            value: "Look",
-            src: "Look.png"
+            value: "See",
+            src: "See.png"
           },
           {
             value: "Read",
