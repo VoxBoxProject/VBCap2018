@@ -1,0 +1,20 @@
+  510  git add startvoxbox.sh voxbox.service 
+  511  git commit -m "added boxbox service using serve to run the dist"
+  512  gi tpush
+  513  git push
+  514  history  | grep ctl
+  515  ls
+  516  vim voxbox.service 
+  517  cd /etc/systemd/system/
+  518  sudo cp ~/projects/VBCap2018/voxbox.service  .
+  519* sudo systemctl daemon-reloa
+  520  sudo systemctl enable voxbox.service 
+  521  sudo systemctl cat  voxbox.service
+  522  sudo systemctl restart  voxbox.service
+  523  ls
+  524  sudo systemctl status  voxbox.service
+  525  cd
+  526  cd projects/
+  527  ls
+  528  cd VBCap2018/
+  529  history 20 > servicenotes.txt

@@ -1,10 +1,13 @@
 [Unit]
 Description=VoxBox server
-After=network.target
+After=network-online.target
+Wants=network-online.target
+Restart=always
+RestartSec=5
 
 [Service]
-User=pi
 
+User=pi
 WorkingDirectory=/home/pi/projects/VBCap2018
 ExecStart=/home/pi/projects/VBCap2018/startvoxbox.sh > voxbox.log
 Restart=on-failure
